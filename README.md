@@ -31,17 +31,8 @@ You can learn more about me at https://olishiz.github.io
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## 📊 GitHub stats
-
-<a href="https://github.com/olishiz">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=olishiz&show_icons=true&rank_icon=github&theme=tokyonight&hide_border=true" alt="Oliver's GitHub stats" />
-</a>
-<a href="https://github.com/olishiz">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=olishiz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages" />
-</a>
-
 ## 🚀 Things I'm proud of
 
-- 🤖 Building AI-powered enterprise solutions with **Azure OpenAI** and **Azure AI Search**
-- 🚗 **Carbnb** — full-stack car subscription platform (Next.js, React, Supabase)
-- 🎓 4× Microsoft Certified — Azure Solutions Architect Expert, Administrator, Developer, AI Fundamentals
+- 💬 Communicating web development with clarity — making complex ideas simple, actionable, and easy to build on
+- 🏗️ Championing thoughtful software design — clean architecture, maintainable code, and quality that lasts
+- 🌱 Embracing what's next — continuously learning emerging technologies to stay ahead of the curve
