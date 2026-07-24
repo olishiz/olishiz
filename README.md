@@ -31,8 +31,8 @@ You can learn more about me at https://olishiz.github.io
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## 🚀 Things I'm proud of
+## 🌱 Things I'm proud of
 
-- 💬 Communicating web development with clarity — making complex ideas simple, actionable, and easy to build on
-- 🏗️ Championing thoughtful software design — clean architecture, maintainable code, and quality that lasts
-- 🌱 Embracing what's next — continuously learning emerging technologies to stay ahead of the curve
+- Communicating web development with clarity — making complex ideas simple, actionable, and easy to build on
+- Championing thoughtful software design — clean architecture, maintainable code, and quality that lasts
+- Embracing what's next — continuously learning emerging technologies to stay ahead of the curve
