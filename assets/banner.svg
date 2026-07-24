@@ -1,0 +1,175 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+
+  <!-- floating deco blobs -->
+  <circle cx="1130" cy="55" r="24" fill="#93c5fd" opacity="0.45">
+    <animate attributeName="cy" values="55;70;55" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="140" cy="365" r="16" fill="#7dd3fc" opacity="0.5">
+    <animate attributeName="cy" values="365;350;365" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="690" cy="45" r="9" fill="#38bdf8" opacity="0.55">
+    <animate attributeName="cy" values="45;60;45" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- name + roles -->
+  <text x="70" y="150" font-size="66" font-weight="700" letter-spacing="-1" fill="url(#nameGrad)">Oliver Sim</text>
+
+  <g font-size="32" fill="#475569" font-weight="500">
+    <text x="70" y="212" opacity="0">
+      senior full stack engineer 💻
+      <animate attributeName="opacity" values="0;1;1;0;0;0" keyTimes="0;0.08;0.30;0.36;0.95;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="212" opacity="0">
+      cloud &amp; devops tinkerer ☁️
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.42;0.62;0.68;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="212" opacity="0">
+      AI builder &amp; gym enthusiast 💪
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.68;0.74;0.94;1;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="70" y="268" font-size="22" fill="#64748b">Kuala Lumpur, Malaysia 🇲🇾 · Azure Solutions Architect Expert</text>
+
+  <!-- tech chips: blue/white theme -->
+  <g font-size="18" font-weight="600">
+    <rect x="70" y="300" rx="16" width="92" height="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/><text x="116" y="323" text-anchor="middle" fill="#1d4ed8">React</text>
+    <rect x="174" y="300" rx="16" width="104" height="34" fill="#dbeafe"/><text x="226" y="323" text-anchor="middle" fill="#1e40af">Angular</text>
+    <rect x="290" y="300" rx="16" width="104" height="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/><text x="342" y="323" text-anchor="middle" fill="#0369a1">Node.js</text>
+    <rect x="406" y="300" rx="16" width="92" height="34" fill="#dbeafe"/><text x="452" y="323" text-anchor="middle" fill="#1e40af">Kotlin</text>
+    <rect x="510" y="300" rx="16" width="92" height="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/><text x="556" y="323" text-anchor="middle" fill="#0369a1">Azure</text>
+    <rect x="614" y="300" rx="16" width="72" height="34" fill="#dbeafe"/><text x="650" y="323" text-anchor="middle" fill="#1e40af">AI</text>
+  </g>
+
+  <!-- Oliver: fit gym-guy cartoon, Monica-banner style -->
+  <g transform="translate(830,52)">
+    <animateTransform attributeName="transform" type="translate" values="830,52;830,46;830,52" dur="5s" repeatCount="indefinite"/>
+    <!-- torso: fitted tank, broad shoulders, V-taper -->
+    <path d="M52,330 C56,250 60,205 130,196 C200,205 204,250 208,330 Z" fill="#1f2937"/>
+    <path d="M52,330 C56,250 60,205 130,196 C200,205 204,250 208,330 Z" fill="none" stroke="#0b0f16" stroke-width="4"/>
+    <!-- chest line -->
+    <path d="M100,240 Q130,252 160,240" stroke="#0b0f16" stroke-width="3" fill="none" opacity="0.5"/>
+    <!-- right arm (viewer right): flexed bicep pose, bare skin -->
+    <g>
+      <path d="M196,212 C232,218 248,240 244,262 C240,244 226,236 214,238 C230,246 234,262 228,276 L198,268 Z" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
+      <ellipse cx="236" cy="228" rx="16" ry="12" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
+    </g>
+    <!-- left arm (viewer left): curling a dumbbell, pumps up and down -->
+    <g>
+      <!-- upper arm / shoulder -->
+      <path d="M64,212 C38,222 30,244 34,268 L62,272 L74,232 Z" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
+      <!-- forearm + dumbbell, rotating around elbow (48,268) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="0 48 268; -26 48 268; 0 48 268" dur="2.6s" repeatCount="indefinite"/>
+        <path d="M34,268 C28,240 30,218 40,200 L60,206 C54,226 54,248 62,270 Z" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
+        <!-- hand -->
+        <ellipse cx="48" cy="200" rx="14" ry="12" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
+        <!-- dumbbell -->
+        <g transform="translate(48,196) rotate(-14)">
+          <rect x="-34" y="-4" width="68" height="8" rx="4" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+          <rect x="-46" y="-18" width="14" height="36" rx="5" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+          <rect x="32" y="-18" width="14" height="36" rx="5" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <!-- neck -->
+    <rect x="110" y="158" width="40" height="40" rx="12" fill="#f0c8a0"/>
+    <!-- head -->
+    <ellipse cx="130" cy="112" rx="62" ry="64" fill="#f6d3ab"/>
+    <!-- ears -->
+    <ellipse cx="70" cy="118" rx="10" ry="14" fill="#f6d3ab"/>
+    <ellipse cx="190" cy="118" rx="10" ry="14" fill="#f6d3ab"/>
+    <!-- hair: modern asian two-block cut with textured fringe -->
+    <g fill="#181512">
+      <!-- main volume: full top, clean tapered sides -->
+      <path d="M66,112 C60,52 92,26 130,26 C170,26 200,54 194,112 C192,94 188,82 182,76 L180,96 C176,80 170,70 162,66 L162,88 C156,72 148,64 138,62 L134,84 C128,68 118,62 108,62 L108,82 C98,70 88,72 82,80 C74,90 70,100 66,112 Z"/>
+      <!-- fringe strands over forehead -->
+      <path d="M82,80 C88,70 98,66 106,68 L96,92 C92,86 86,82 82,80 Z"/>
+      <path d="M108,66 C116,62 126,62 132,66 L120,90 C116,82 112,72 108,66 Z"/>
+      <path d="M136,64 C144,62 152,66 158,72 L146,92 C142,82 139,72 136,64 Z"/>
+      <!-- sideburns -->
+      <path d="M64,110 L74,104 L74,126 C70,122 66,116 64,110 Z"/>
+      <path d="M196,110 L186,104 L186,126 C190,122 194,116 196,110 Z"/>
+    </g>
+    <!-- eyebrows -->
+    <path d="M92,94 Q106,88 120,93" stroke="#26221f" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M142,93 Q156,88 170,94" stroke="#26221f" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- eyes, no specs (blink) -->
+    <g>
+      <circle cx="105" cy="113" r="8" fill="#1f2937"/>
+      <circle cx="157" cy="113" r="8" fill="#1f2937"/>
+      <circle cx="108" cy="110" r="3" fill="#fff"/>
+      <circle cx="160" cy="110" r="3" fill="#fff"/>
+      <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.9;0.94;0.97;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <path d="M97,113 Q105,118 113,113" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <path d="M149,113 Q157,118 165,113" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.9;0.94;0.97;1" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <!-- nose + confident grin -->
+    <path d="M129,128 Q133,136 128,140" stroke="#d9a877" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M108,150 Q130,168 152,150" stroke="#8c5a3c" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- tank straps -->
+    <path d="M104,200 Q130,214 156,200" stroke="#0b0f16" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- dumbbell resting on the ground -->
+  <g transform="translate(760,388) rotate(-6)">
+    <rect x="-30" y="-3" width="60" height="6" rx="3" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+    <rect x="-42" y="-14" width="12" height="28" rx="4" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+    <rect x="30" y="-14" width="12" height="28" rx="4" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+  </g>
+
+  <!-- mini mudkip sidekick at Oliver's feet -->
+  <g transform="translate(1058,268)">
+    <animateTransform attributeName="transform" type="translate" values="1058,268;1058,260;1058,268" dur="3.5s" repeatCount="indefinite"/>
+    <g transform="scale(0.42)">
+    <!-- head fin -->
+    <path d="M100,-60 C60,-35 68,15 100,20 C132,15 140,-35 100,-60" fill="#9ad9f2" stroke="#3b9ec4" stroke-width="6" transform="scale(1)"/>
+    <ellipse cx="100" cy="100" rx="98" ry="88" fill="#7ecdec" stroke="#3b9ec4" stroke-width="6"/>
+    <ellipse cx="100" cy="140" rx="62" ry="42" fill="#d9f2fb"/>
+    <g fill="#f8a34c" stroke="#d97d24" stroke-width="5" stroke-linejoin="round">
+      <path d="M10,85 L-30,60 L-16,92 L-34,118 L8,105 Z"/>
+      <path d="M190,85 L230,60 L216,92 L234,118 L192,105 Z"/>
+    </g>
+    <g>
+      <ellipse cx="58" cy="85" rx="21" ry="26" fill="#1f2937"/>
+      <ellipse cx="142" cy="85" rx="21" ry="26" fill="#1f2937"/>
+      <circle cx="64" cy="76" r="8" fill="#fff"/>
+      <circle cx="148" cy="76" r="8" fill="#fff"/>
+      <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.88;0.92;0.96;1" dur="5s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <path d="M38,85 Q58,95 78,85" stroke="#1f2937" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <path d="M122,85 Q142,95 162,85" stroke="#1f2937" stroke-width="7" fill="none" stroke-linecap="round"/>
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.88;0.92;0.96;1" dur="5s" repeatCount="indefinite"/>
+    </g>
+    <ellipse cx="38" cy="118" rx="12" ry="8" fill="#f9b8c9" opacity="0.7"/>
+    <ellipse cx="162" cy="118" rx="12" ry="8" fill="#f9b8c9" opacity="0.7"/>
+    <path d="M68,128 Q100,152 132,128 Q100,170 68,128" fill="#7c3f4e"/>
+    </g>
+  </g>
+
+  <!-- pokeball, small, bottom right -->
+  <g transform="translate(1150,380)">
+    <animateTransform attributeName="transform" type="translate" values="1150,380;1150,372;1150,380" dur="3s" repeatCount="indefinite"/>
+    <circle cx="0" cy="0" r="16" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+    <path d="M-16,0 A16,16 0 0 1 16,0 Z" fill="#ef4444"/>
+    <line x1="-16" y1="0" x2="16" y2="0" stroke="#1f2937" stroke-width="3"/>
+    <circle cx="0" cy="0" r="5" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+  </g>
+</svg>
