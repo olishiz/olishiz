@@ -8,33 +8,41 @@ You can learn more about me at https://olishiz.github.io
 
 ![Snake animation](./assets/github-snake.svg)
 
-**Connect with me:**
+### Connect with me:
 
-<p align="left">
-<a href="https://olishiz.github.io" target="blank"><img align="center" src="https://cdn.simpleicons.org/googlechrome/000000" alt="Portfolio" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/olishiz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="https://the-shiz.co" target="blank"><img align="center" src="https://cdn.simpleicons.org/htmx/000000" alt="The Shiz" height="30" width="40" /></a>
-<a href="mailto:zhuen1101@hotmail.com"><img align="center" src="https://cdn.simpleicons.org/gmail/000000" alt="Email" height="30" width="40" /></a>
-</p>
+[![website](./img/globe-light.svg)](https://olishiz.github.io#gh-light-mode-only)
+[![website](./img/globe-dark.svg)](https://olishiz.github.io#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![linkedin](./img/linkedin-light.svg)](https://www.linkedin.com/in/olishiz#gh-light-mode-only)
+[![linkedin](./img/linkedin-dark.svg)](https://www.linkedin.com/in/olishiz#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![the shiz](./img/code-light.svg)](https://the-shiz.co#gh-light-mode-only)
+[![the shiz](./img/code-dark.svg)](https://the-shiz.co#gh-dark-mode-only)
+&nbsp;&nbsp;
+[![email](./img/mail-light.svg)](mailto:zhuen1101@hotmail.com#gh-light-mode-only)
+[![email](./img/mail-dark.svg)](mailto:zhuen1101@hotmail.com#gh-dark-mode-only)
 
-**Languages and Tools:**
+### Languages and Tools:
 
-<p align="left">
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-<a href="https://kotlinlang.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/></a>
-<a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
-<a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/></a>
-<a href="https://angular.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="angular" width="40" height="40"/></a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/></a>
-<a href="https://spring.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring" width="40" height="40"/></a>
-<a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" alt="azure" width="40" height="40"/></a>
-<a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="40" height="40"/></a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/></a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/></a>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/></a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/></a>
-</p>
+<img align="left" alt="TypeScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" style="padding-right:10px;" />
+<img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Kotlin" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Java" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" style="padding-right:10px;" />
+<img align="left" alt="React" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Angular" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Spring" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Azure" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Kubernetes" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" style="padding-right:10px;" />
+<img align="left" alt="Docker" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" style="padding-right:10px;" />
+<img align="left" alt="MongoDB" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="padding-right:10px;" />
+<img align="left" alt="PostgreSQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style="padding-right:10px;" />
+<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
+
+<br />
+<br />
+
+---
 
 ## 🌱 Things I'm proud of
 
