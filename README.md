@@ -1,5 +1,7 @@
 # Hi, I'm Oliver 👋 🧑🏻‍💻
 
+![Profile views](https://komarev.com/ghpvc/?username=olishiz&color=0284c7&style=flat-square)
+
 ![Oliver Sim — Senior Full Stack Engineer](./assets/banner.svg)
 
 I'm a **Senior Full Stack Engineer** with 7+ years of experience building enterprise applications across frontend, backend, cloud, and DevOps — currently modernizing banking platforms and building **AI-enabled solutions** at **Maybank** 🏦. I'm a **Microsoft Certified Azure Solutions Architect Expert** ☁️, and I also run [The Shiz](https://the-shiz.co), a web & app development studio crafting digital solutions for Malaysian businesses.
