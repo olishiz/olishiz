@@ -1,175 +1,262 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Oliver Sim — AI-native senior software engineer</title>
+  <desc id="desc">A futuristic animated GitHub profile banner showing Oliver Sim as a full-stack, cloud and AI engineer.</desc>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="60%" stop-color="#eff6ff"/>
-      <stop offset="100%" stop-color="#dbeafe"/>
+      <stop offset="0" stop-color="#050814"/>
+      <stop offset="0.5" stop-color="#0a1022"/>
+      <stop offset="1" stop-color="#111735"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0c4a6e"/>
-      <stop offset="100%" stop-color="#0284c7"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
     </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#f5d3b3"/>
+      <stop offset="1" stop-color="#dba57b"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#253253"/>
+    </linearGradient>
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#7dd3fc" stroke-opacity=".08" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.2" fill="#7dd3fc" fill-opacity=".18"/>
+    </pattern>
+    <pattern id="microgrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#93c5fd" stroke-opacity=".06" stroke-width=".6"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="portraitClip">
+      <circle cx="966" cy="216" r="126"/>
+    </clipPath>
   </defs>
 
   <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="420" rx="24" fill="url(#microgrid)"/>
 
-  <!-- floating deco blobs -->
-  <circle cx="1130" cy="55" r="24" fill="#93c5fd" opacity="0.45">
-    <animate attributeName="cy" values="55;70;55" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="140" cy="365" r="16" fill="#7dd3fc" opacity="0.5">
-    <animate attributeName="cy" values="365;350;365" dur="6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="690" cy="45" r="9" fill="#38bdf8" opacity="0.55">
-    <animate attributeName="cy" values="45;60;45" dur="4s" repeatCount="indefinite"/>
-  </circle>
+  <!-- ambient light -->
+  <circle cx="1030" cy="130" r="320" fill="url(#glowPurple)"/>
+  <circle cx="770" cy="350" r="300" fill="url(#glowCyan)"/>
+  <ellipse cx="235" cy="80" rx="260" ry="180" fill="url(#glowCyan)" opacity=".34"/>
 
-  <!-- name + roles -->
-  <text x="70" y="150" font-size="66" font-weight="700" letter-spacing="-1" fill="url(#nameGrad)">Oliver Sim</text>
+  <!-- animated scan line -->
+  <rect x="0" y="-16" width="1200" height="22" fill="url(#accent)" opacity=".05">
+    <animate attributeName="y" values="-22;442" dur="9s" repeatCount="indefinite"/>
+  </rect>
 
-  <g font-size="32" fill="#475569" font-weight="500">
-    <text x="70" y="212" opacity="0">
-      senior full stack engineer 💻
-      <animate attributeName="opacity" values="0;1;1;0;0;0" keyTimes="0;0.08;0.30;0.36;0.95;1" dur="9s" repeatCount="indefinite"/>
-    </text>
-    <text x="70" y="212" opacity="0">
-      cloud &amp; devops tinkerer ☁️
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36;0.42;0.62;0.68;1" dur="9s" repeatCount="indefinite"/>
-    </text>
-    <text x="70" y="212" opacity="0">
-      AI builder &amp; gym enthusiast 💪
-      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.68;0.74;0.94;1;1" dur="9s" repeatCount="indefinite"/>
-    </text>
+  <!-- technical frame -->
+  <path d="M36 74V38H72 M1128 38h36v36 M36 346v36h36 M1128 382h36v-36"
+        fill="none" stroke="#7dd3fc" stroke-opacity=".42" stroke-width="2"/>
+  <path d="M56 55H400" stroke="url(#accent)" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M800 365H1144" stroke="url(#accent)" stroke-opacity=".65" stroke-width="2"/>
+  <g fill="#93c5fd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" opacity=".55">
+    <text x="56" y="48">PROFILE.NODE / 01</text>
+    <text x="1018" y="48">KL · MY</text>
+    <text x="1085" y="48">03.1390°N</text>
+    <text x="56" y="388">BUILD · SHIP · LEARN · REPEAT</text>
   </g>
 
-  <text x="70" y="268" font-size="22" fill="#64748b">Kuala Lumpur, Malaysia 🇲🇾 · Azure Solutions Architect Expert</text>
+  <!-- identity -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="68" y="126" font-size="16" font-weight="700" letter-spacing="4.5" fill="#67e8f9">HELLO, I BUILD THE FUTURE</text>
+    <text x="64" y="198" font-size="72" font-weight="900" letter-spacing="-3" fill="#f8fafc">OLIVER</text>
+    <text x="349" y="198" font-size="72" font-weight="900" letter-spacing="-3" fill="url(#accent)">SIM</text>
 
-  <!-- tech chips: blue/white theme -->
-  <g font-size="18" font-weight="600">
-    <rect x="70" y="300" rx="16" width="92" height="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/><text x="116" y="323" text-anchor="middle" fill="#1d4ed8">React</text>
-    <rect x="174" y="300" rx="16" width="104" height="34" fill="#dbeafe"/><text x="226" y="323" text-anchor="middle" fill="#1e40af">Angular</text>
-    <rect x="290" y="300" rx="16" width="104" height="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/><text x="342" y="323" text-anchor="middle" fill="#0369a1">Node.js</text>
-    <rect x="406" y="300" rx="16" width="92" height="34" fill="#dbeafe"/><text x="452" y="323" text-anchor="middle" fill="#1e40af">Kotlin</text>
-    <rect x="510" y="300" rx="16" width="92" height="34" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/><text x="556" y="323" text-anchor="middle" fill="#0369a1">Azure</text>
-    <rect x="614" y="300" rx="16" width="72" height="34" fill="#dbeafe"/><text x="650" y="323" text-anchor="middle" fill="#1e40af">AI</text>
-  </g>
-
-  <!-- Oliver: fit gym-guy cartoon, Monica-banner style -->
-  <g transform="translate(830,52)">
-    <animateTransform attributeName="transform" type="translate" values="830,52;830,46;830,52" dur="5s" repeatCount="indefinite"/>
-    <!-- torso: fitted tank, broad shoulders, V-taper -->
-    <path d="M52,330 C56,250 60,205 130,196 C200,205 204,250 208,330 Z" fill="#1f2937"/>
-    <path d="M52,330 C56,250 60,205 130,196 C200,205 204,250 208,330 Z" fill="none" stroke="#0b0f16" stroke-width="4"/>
-    <!-- chest line -->
-    <path d="M100,240 Q130,252 160,240" stroke="#0b0f16" stroke-width="3" fill="none" opacity="0.5"/>
-    <!-- right arm (viewer right): flexed bicep pose, bare skin -->
-    <g>
-      <path d="M196,212 C232,218 248,240 244,262 C240,244 226,236 214,238 C230,246 234,262 228,276 L198,268 Z" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
-      <ellipse cx="236" cy="228" rx="16" ry="12" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">
+      <text x="68" y="239" fill="#cbd5e1">SENIOR SOFTWARE ENGINEER</text>
+      <rect x="392" y="220" width="12" height="23" rx="2" fill="#22d3ee" filter="url(#tinyGlow)">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
     </g>
-    <!-- left arm (viewer left): curling a dumbbell, pumps up and down -->
-    <g>
-      <!-- upper arm / shoulder -->
-      <path d="M64,212 C38,222 30,244 34,268 L62,272 L74,232 Z" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
-      <!-- forearm + dumbbell, rotating around elbow (48,268) -->
+
+    <text x="68" y="277" font-size="18" fill="#94a3b8">
+      Full-stack systems. Cloud platforms. AI-native products.
+    </text>
+    <text x="68" y="303" font-size="18" fill="#94a3b8">
+      Turning complex engineering into software people can use.
+    </text>
+  </g>
+
+  <!-- capability chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="700" letter-spacing=".8">
+    <g transform="translate(68 326)">
+      <rect width="108" height="34" rx="17" fill="#0c1d33" stroke="#22d3ee" stroke-opacity=".65"/>
+      <circle cx="18" cy="17" r="4" fill="#22d3ee" filter="url(#tinyGlow)"/>
+      <text x="32" y="22" fill="#cffafe">FULL STACK</text>
+    </g>
+    <g transform="translate(187 326)">
+      <rect width="92" height="34" rx="17" fill="#101b38" stroke="#60a5fa" stroke-opacity=".65"/>
+      <circle cx="18" cy="17" r="4" fill="#60a5fa" filter="url(#tinyGlow)"/>
+      <text x="32" y="22" fill="#dbeafe">CLOUD</text>
+    </g>
+    <g transform="translate(290 326)">
+      <rect width="72" height="34" rx="17" fill="#1d183d" stroke="#a78bfa" stroke-opacity=".7"/>
+      <circle cx="18" cy="17" r="4" fill="#a78bfa" filter="url(#tinyGlow)"/>
+      <text x="32" y="22" fill="#ede9fe">AI</text>
+    </g>
+    <g transform="translate(373 326)">
+      <rect width="94" height="34" rx="17" fill="#131d35" stroke="#818cf8" stroke-opacity=".65"/>
+      <circle cx="18" cy="17" r="4" fill="#818cf8" filter="url(#tinyGlow)"/>
+      <text x="32" y="22" fill="#e0e7ff">DEVOPS</text>
+    </g>
+    <g transform="translate(478 326)">
+      <rect width="152" height="34" rx="17" fill="#0e2230" stroke="#34d399" stroke-opacity=".62"/>
+      <circle cx="18" cy="17" r="4" fill="#34d399" filter="url(#tinyGlow)">
+        <animate attributeName="opacity" values=".45;1;.45" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="22" fill="#d1fae5">READY TO SHIP</text>
+    </g>
+  </g>
+
+  <!-- terminal card -->
+  <g transform="translate(535 72)">
+    <rect width="252" height="177" rx="16" fill="#060b18" fill-opacity=".82" stroke="#334155" stroke-opacity=".9"/>
+    <rect x="1" y="1" width="250" height="34" rx="15" fill="#111827"/>
+    <path d="M1 34H251" stroke="#334155"/>
+    <circle cx="18" cy="18" r="4" fill="#fb7185"/>
+    <circle cx="33" cy="18" r="4" fill="#fbbf24"/>
+    <circle cx="48" cy="18" r="4" fill="#34d399"/>
+    <text x="70" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#64748b">oliver@shiz — zsh</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
+      <text x="16" y="58" fill="#67e8f9">$ whoami</text>
+      <text x="16" y="80" fill="#e2e8f0">senior_engineer</text>
+      <text x="16" y="105" fill="#67e8f9">$ current_mission</text>
+      <text x="16" y="127" fill="#e2e8f0">build useful AI systems</text>
+      <text x="16" y="152" fill="#67e8f9">$ deploy --quality</text>
+      <rect x="151" y="140" width="8" height="14" fill="#a7f3d0">
+        <animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- orbital portrait system -->
+  <g>
+    <circle cx="966" cy="216" r="165" fill="#080e20" fill-opacity=".58" stroke="#475569" stroke-opacity=".65"/>
+    <circle cx="966" cy="216" r="148" fill="none" stroke="#22d3ee" stroke-opacity=".24" stroke-width="1.5" stroke-dasharray="3 10"/>
+    <circle cx="966" cy="216" r="133" fill="#0a1228" stroke="url(#accent)" stroke-opacity=".8" stroke-width="2"/>
+    <circle cx="966" cy="216" r="126" fill="#09101f"/>
+
+    <g transform="rotate(0 966 216)">
+      <circle cx="966" cy="51" r="5" fill="#22d3ee" filter="url(#tinyGlow)"/>
+      <circle cx="1131" cy="216" r="4" fill="#a78bfa" filter="url(#tinyGlow)"/>
+      <circle cx="966" cy="381" r="3" fill="#60a5fa" filter="url(#tinyGlow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 966 216" to="360 966 216" dur="14s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- portrait contents -->
+    <g clip-path="url(#portraitClip)">
+      <rect x="838" y="88" width="256" height="256" fill="#081121"/>
+      <path d="M838 310L1094 170V344H838Z" fill="#0f1b36"/>
+      <path d="M846 323L1086 192" stroke="#22d3ee" stroke-opacity=".13" stroke-width="2"/>
+      <path d="M862 340L1094 214" stroke="#a78bfa" stroke-opacity=".1" stroke-width="2"/>
+
+      <!-- floating avatar -->
       <g>
-        <animateTransform attributeName="transform" type="rotate" values="0 48 268; -26 48 268; 0 48 268" dur="2.6s" repeatCount="indefinite"/>
-        <path d="M34,268 C28,240 30,218 40,200 L60,206 C54,226 54,248 62,270 Z" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
-        <!-- hand -->
-        <ellipse cx="48" cy="200" rx="14" ry="12" fill="#f0c8a0" stroke="#d9a877" stroke-width="3"/>
-        <!-- dumbbell -->
-        <g transform="translate(48,196) rotate(-14)">
-          <rect x="-34" y="-4" width="68" height="8" rx="4" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
-          <rect x="-46" y="-18" width="14" height="36" rx="5" fill="#334155" stroke="#1e293b" stroke-width="2"/>
-          <rect x="32" y="-18" width="14" height="36" rx="5" fill="#334155" stroke="#1e293b" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="translate" values="0 3;0 -3;0 3" dur="4.8s" repeatCount="indefinite"/>
+
+        <!-- broad-shouldered upper body -->
+        <path d="M846 365C854 298 886 272 924 264H1008C1050 274 1080 304 1088 365Z" fill="url(#shirt)"/>
+        <path d="M846 365C854 298 886 272 924 264H1008C1050 274 1080 304 1088 365" fill="none" stroke="#334155" stroke-width="4"/>
+        <path d="M899 281Q966 316 1033 281" fill="none" stroke="#4f5e7f" stroke-opacity=".5" stroke-width="3"/>
+        <path d="M920 267L942 307L966 281L991 307L1012 267" fill="#080d19" stroke="#273554" stroke-width="2"/>
+
+        <!-- neck -->
+        <path d="M936 238V276Q966 292 996 276V238Z" fill="url(#skin)"/>
+
+        <!-- ears -->
+        <ellipse cx="900" cy="195" rx="12" ry="18" fill="#e0ae86"/>
+        <ellipse cx="1032" cy="195" rx="12" ry="18" fill="#d49b72"/>
+
+        <!-- face -->
+        <path d="M904 156C910 115 939 99 968 99C1002 99 1028 121 1028 160V205C1028 248 1002 270 967 270C933 270 906 247 906 205Z" fill="url(#skin)"/>
+
+        <!-- hair -->
+        <path d="M900 172C895 120 923 84 969 84C1017 84 1042 119 1031 171C1024 149 1013 133 997 123L995 147C985 130 974 119 959 116L956 143C945 128 931 123 917 130C909 140 904 154 900 172Z" fill="#090b10"/>
+        <path d="M913 133C928 112 949 105 969 109L951 147C943 134 929 129 913 133Z" fill="#11141c"/>
+        <path d="M960 109C982 104 1003 113 1016 130L989 148C984 130 974 117 960 109Z" fill="#0d1017"/>
+        <path d="M902 165L915 154V188L905 181Z" fill="#090b10"/>
+        <path d="M1030 165L1018 154V188L1028 181Z" fill="#090b10"/>
+
+        <!-- brows -->
+        <path d="M926 178Q941 170 954 177" fill="none" stroke="#2b211d" stroke-width="5" stroke-linecap="round"/>
+        <path d="M980 177Q994 170 1008 178" fill="none" stroke="#2b211d" stroke-width="5" stroke-linecap="round"/>
+
+        <!-- eyes blink -->
+        <g>
+          <ellipse cx="941" cy="194" rx="6.5" ry="7.5" fill="#111827"/>
+          <ellipse cx="994" cy="194" rx="6.5" ry="7.5" fill="#111827"/>
+          <circle cx="943" cy="192" r="2" fill="#f8fafc"/>
+          <circle cx="996" cy="192" r="2" fill="#f8fafc"/>
+          <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;.89;.92;.95;1" dur="5.5s" repeatCount="indefinite"/>
         </g>
+        <g opacity="0">
+          <path d="M934 195Q941 199 948 195" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+          <path d="M987 195Q994 199 1001 195" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+          <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.89;.92;.95;1" dur="5.5s" repeatCount="indefinite"/>
+        </g>
+
+        <!-- nose and confident smile -->
+        <path d="M967 198Q972 214 965 219" fill="none" stroke="#b97855" stroke-width="3" stroke-linecap="round"/>
+        <path d="M943 234Q967 251 991 233" fill="none" stroke="#75432f" stroke-width="4" stroke-linecap="round"/>
+        <path d="M951 239Q967 246 983 238" fill="none" stroke="#f8fafc" stroke-opacity=".72" stroke-width="2"/>
+
+        <!-- shirt insignia -->
+        <path d="M950 320L966 303L982 320L966 337Z" fill="none" stroke="url(#accent)" stroke-width="3"/>
+        <circle cx="966" cy="320" r="4" fill="#22d3ee" filter="url(#tinyGlow)"/>
       </g>
     </g>
-    <!-- neck -->
-    <rect x="110" y="158" width="40" height="40" rx="12" fill="#f0c8a0"/>
-    <!-- head -->
-    <ellipse cx="130" cy="112" rx="62" ry="64" fill="#f6d3ab"/>
-    <!-- ears -->
-    <ellipse cx="70" cy="118" rx="10" ry="14" fill="#f6d3ab"/>
-    <ellipse cx="190" cy="118" rx="10" ry="14" fill="#f6d3ab"/>
-    <!-- hair: modern asian two-block cut with textured fringe -->
-    <g fill="#181512">
-      <!-- main volume: full top, clean tapered sides -->
-      <path d="M66,112 C60,52 92,26 130,26 C170,26 200,54 194,112 C192,94 188,82 182,76 L180,96 C176,80 170,70 162,66 L162,88 C156,72 148,64 138,62 L134,84 C128,68 118,62 108,62 L108,82 C98,70 88,72 82,80 C74,90 70,100 66,112 Z"/>
-      <!-- fringe strands over forehead -->
-      <path d="M82,80 C88,70 98,66 106,68 L96,92 C92,86 86,82 82,80 Z"/>
-      <path d="M108,66 C116,62 126,62 132,66 L120,90 C116,82 112,72 108,66 Z"/>
-      <path d="M136,64 C144,62 152,66 158,72 L146,92 C142,82 139,72 136,64 Z"/>
-      <!-- sideburns -->
-      <path d="M64,110 L74,104 L74,126 C70,122 66,116 64,110 Z"/>
-      <path d="M196,110 L186,104 L186,126 C190,122 194,116 196,110 Z"/>
-    </g>
-    <!-- eyebrows -->
-    <path d="M92,94 Q106,88 120,93" stroke="#26221f" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <path d="M142,93 Q156,88 170,94" stroke="#26221f" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <!-- eyes, no specs (blink) -->
-    <g>
-      <circle cx="105" cy="113" r="8" fill="#1f2937"/>
-      <circle cx="157" cy="113" r="8" fill="#1f2937"/>
-      <circle cx="108" cy="110" r="3" fill="#fff"/>
-      <circle cx="160" cy="110" r="3" fill="#fff"/>
-      <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.9;0.94;0.97;1" dur="6s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0">
-      <path d="M97,113 Q105,118 113,113" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
-      <path d="M149,113 Q157,118 165,113" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.9;0.94;0.97;1" dur="6s" repeatCount="indefinite"/>
-    </g>
-    <!-- nose + confident grin -->
-    <path d="M129,128 Q133,136 128,140" stroke="#d9a877" stroke-width="4" fill="none" stroke-linecap="round"/>
-    <path d="M108,150 Q130,168 152,150" stroke="#8c5a3c" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <!-- tank straps -->
-    <path d="M104,200 Q130,214 156,200" stroke="#0b0f16" stroke-width="4" fill="none"/>
-  </g>
 
-  <!-- dumbbell resting on the ground -->
-  <g transform="translate(760,388) rotate(-6)">
-    <rect x="-30" y="-3" width="60" height="6" rx="3" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
-    <rect x="-42" y="-14" width="12" height="28" rx="4" fill="#334155" stroke="#1e293b" stroke-width="2"/>
-    <rect x="30" y="-14" width="12" height="28" rx="4" fill="#334155" stroke="#1e293b" stroke-width="2"/>
-  </g>
+    <!-- floating engineering glyphs -->
+    <g transform="translate(805 125)">
+      <rect width="88" height="50" rx="10" fill="#091427" fill-opacity=".92" stroke="#22d3ee" stroke-opacity=".55"/>
+      <text x="14" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#67e8f9">&lt;code/&gt;</text>
+      <path d="M14 34H69" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+      <path d="M14 41H52" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="translate" values="805 125;805 118;805 125" dur="4s" repeatCount="indefinite"/>
+    </g>
 
-  <!-- mini mudkip sidekick at Oliver's feet -->
-  <g transform="translate(1058,268)">
-    <animateTransform attributeName="transform" type="translate" values="1058,268;1058,260;1058,268" dur="3.5s" repeatCount="indefinite"/>
-    <g transform="scale(0.42)">
-    <!-- head fin -->
-    <path d="M100,-60 C60,-35 68,15 100,20 C132,15 140,-35 100,-60" fill="#9ad9f2" stroke="#3b9ec4" stroke-width="6" transform="scale(1)"/>
-    <ellipse cx="100" cy="100" rx="98" ry="88" fill="#7ecdec" stroke="#3b9ec4" stroke-width="6"/>
-    <ellipse cx="100" cy="140" rx="62" ry="42" fill="#d9f2fb"/>
-    <g fill="#f8a34c" stroke="#d97d24" stroke-width="5" stroke-linejoin="round">
-      <path d="M10,85 L-30,60 L-16,92 L-34,118 L8,105 Z"/>
-      <path d="M190,85 L230,60 L216,92 L234,118 L192,105 Z"/>
+    <g transform="translate(1070 120)">
+      <rect width="72" height="58" rx="12" fill="#10112b" fill-opacity=".92" stroke="#a78bfa" stroke-opacity=".6"/>
+      <!-- cloud -->
+      <path d="M20 37H52C59 37 62 33 62 28C62 23 58 20 53 20C51 13 45 10 39 10C31 10 25 15 24 22C18 22 14 25 14 30C14 34 16 37 20 37Z" fill="none" stroke="#c4b5fd" stroke-width="2.5"/>
+      <animateTransform attributeName="transform" type="translate" values="1070 120;1070 128;1070 120" dur="4.6s" repeatCount="indefinite"/>
     </g>
-    <g>
-      <ellipse cx="58" cy="85" rx="21" ry="26" fill="#1f2937"/>
-      <ellipse cx="142" cy="85" rx="21" ry="26" fill="#1f2937"/>
-      <circle cx="64" cy="76" r="8" fill="#fff"/>
-      <circle cx="148" cy="76" r="8" fill="#fff"/>
-      <animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.88;0.92;0.96;1" dur="5s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0">
-      <path d="M38,85 Q58,95 78,85" stroke="#1f2937" stroke-width="7" fill="none" stroke-linecap="round"/>
-      <path d="M122,85 Q142,95 162,85" stroke="#1f2937" stroke-width="7" fill="none" stroke-linecap="round"/>
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.88;0.92;0.96;1" dur="5s" repeatCount="indefinite"/>
-    </g>
-    <ellipse cx="38" cy="118" rx="12" ry="8" fill="#f9b8c9" opacity="0.7"/>
-    <ellipse cx="162" cy="118" rx="12" ry="8" fill="#f9b8c9" opacity="0.7"/>
-    <path d="M68,128 Q100,152 132,128 Q100,170 68,128" fill="#7c3f4e"/>
+
+    <g transform="translate(1083 286)">
+      <rect width="75" height="48" rx="12" fill="#081b21" fill-opacity=".92" stroke="#34d399" stroke-opacity=".58"/>
+      <!-- dumbbell -->
+      <path d="M23 24H52" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round"/>
+      <path d="M17 15V33M23 18V30M52 18V30M58 15V33" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round"/>
+      <animateTransform attributeName="transform" type="translate" values="1083 286;1083 279;1083 286" dur="3.8s" repeatCount="indefinite"/>
     </g>
   </g>
 
-  <!-- pokeball, small, bottom right -->
-  <g transform="translate(1150,380)">
-    <animateTransform attributeName="transform" type="translate" values="1150,380;1150,372;1150,380" dur="3s" repeatCount="indefinite"/>
-    <circle cx="0" cy="0" r="16" fill="#fff" stroke="#1f2937" stroke-width="3"/>
-    <path d="M-16,0 A16,16 0 0 1 16,0 Z" fill="#ef4444"/>
-    <line x1="-16" y1="0" x2="16" y2="0" stroke="#1f2937" stroke-width="3"/>
-    <circle cx="0" cy="0" r="5" fill="#fff" stroke="#1f2937" stroke-width="3"/>
+  <!-- footer status -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">
+    <circle cx="807" cy="387" r="4" fill="#34d399" filter="url(#tinyGlow)">
+      <animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="819" y="391" fill="#94a3b8">AZURE ARCHITECT · KUALA LUMPUR · THE SHIZ</text>
   </g>
+
+  <rect x="1" y="1" width="1198" height="418" rx="23" fill="none" stroke="url(#accent)" stroke-opacity=".32" stroke-width="2"/>
 </svg>
