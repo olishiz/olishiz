@@ -8,7 +8,7 @@ I'm a **Senior Full Stack Engineer** with 7+ years of experience building enterp
 
 I'm a **Microsoft Certified Azure Solutions Architect Expert** ☁️, and I also run [The Shiz](https://the-shiz.co), a web & app development studio crafting digital solutions for Malaysian businesses.
 
-You can learn more about me at https://olishiz.github.io
+You can learn more about me at https://olishiz.com
 
 ![Snake animation](./assets/github-snake.svg)
 
