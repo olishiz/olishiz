@@ -14,8 +14,8 @@ You can learn more about me at https://olishiz.com
 
 ### Connect with me:
 
-[![website](./img/globe-light.svg)](https://olishiz.github.io#gh-light-mode-only)
-[![website](./img/globe-dark.svg)](https://olishiz.github.io#gh-dark-mode-only)
+[![website](./img/globe-light.svg)](https://olishiz.com#gh-light-mode-only)
+[![website](./img/globe-dark.svg)](https://olishiz.com#gh-dark-mode-only)
 &nbsp;&nbsp;
 [![linkedin](./img/linkedin-light.svg)](https://www.linkedin.com/in/olishiz#gh-light-mode-only)
 [![linkedin](./img/linkedin-dark.svg)](https://www.linkedin.com/in/olishiz#gh-dark-mode-only)
